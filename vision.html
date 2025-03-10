@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision and Mission</title>
+    <style>
+        /* General Reset */
+        body, h1, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #070d0b;
+            color: white;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: auto;
+            color: white;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Quote Section */
+        .quote-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            font-style: italic;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #ffcc00;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+        .quote-author {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .quote-position {
+            font-size: 1rem;
+            color: #bbb;
+        }
+
+        /* Vision Section */
+        .vision-container {
+            margin-top: 2rem;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .vision-container h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .vision-list {
+            list-style: none;
+        }
+
+        .vision-list li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Mission Section */
+        .mission-container {
+            margin-top: 2rem;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .mission-container h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .mission-list {
+            list-style: none;
+        }
+
+        .mission-list li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s ease-out forwards;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: white;
+            margin-top: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">CTRL ALT</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Team.html">Our Team</a></li>
+		<li><a href="Compad.html">Comp. Adv </a></li>
+		<li><a href="Pestel.html">PESTEL</a></li>
+		<li><a href="SWOT.html">SWOT</a></li>
+		<li><a href="obj.html">Obj and Goals</a></li>
+		<li><a href="comp.html">Comp. Analysis</a></li>
+		<li><a href="viro.html">Viro Framework</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- CEO Quote -->
+        <div class="quote-container">
+            "Technology should empower, not complicate. At Ctrl One, we create smartphones that seamlessly integrate into your life, making every moment smarter, faster, and better."
+            <div class="quote-author">- Rojik Bajgai</div>
+            <div class="quote-position">CEO of CTRL One</div>
+        </div>
+
+        <!-- Vision Section -->
+        <div class="vision-container">
+            <h2>Our Vision</h2>
+            <ul class="vision-list">
+                <li style="animation-delay: 0.2s;">To revolutionize the smartphone industry by delivering innovative, high-performance, and user-centric devices that enhance connectivity, productivity, and digital experiences worldwide. We strive to be a global leader in mobile technology, shaping the future with cutting-edge innovation and sustainable practices.</li>
+            </ul>
+<br>
+        </div>
+
+        <!-- Mission Section -->
+        <div class="mission-container">
+            <h2>Our Mission</h2>
+            <ul class="mission-list">
+                <li style="animation-delay: 0.2s;">At Ctrl One, we design, manufacture, and deliver smartphones that combine advanced technology, seamless usability, and elegant design. Our mission is to empower users with devices that enhance their daily lives, ensuring security, performance, and sustainability. Through relentless innovation and customer-driven solutions, we aim to set new industry standards and create meaningful experiences for users worldwide.</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <hr style="border: 1px solid #fff; margin: 1rem 0;">
+        <p>&copy; 2025 CTRL ALT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
