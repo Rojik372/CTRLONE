@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        /* General Reset */
+        body, h1, h2, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #070d0b;
+            color: white;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #222;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Main Section Styling */
+        main {
+            padding: 2rem;
+        }
+
+        .forces-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            background-color: #333;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .force-box {
+            background-color: #444;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .force-box:hover {
+            transform: translateY(-5px);
+            background-color: #555;
+        }
+
+        .force-box h3 {
+            margin-bottom: 0.5rem;
+            color: #ffcc00;
+        }
+
+        .force-box p {
+            font-size: 0.9rem;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #222;
+            margin-top: 2rem;
+        }
+
+        footer hr {
+            border: 1px solid #fff;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">CTRL ALT</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vision.html">Vision</a></li>
+                <li><a href="Team.html">Our Team</a></li>
+                <li><a href="Compad.html">Comp. Adv</a></li>
+		<li><a href="Pestel.html">PESTEL</a></li>
+		<li><a href="SWOT.html">SWOT</a></li>
+		<li><a href="obj.html">Obj and Goals</a></li>
+		<li><a href="comp.html">Comp. Analysis</a></li>
+		<li><a href="viro.html">Viro Framework</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Porter’s Five Forces Analysis</h2><br><br><br><br>
+        <div class="forces-container">
+            <div class="force-box">
+                <h3>Competitive Rivalry</h3>
+                <p>High competition in the smartphone industry with major brands innovating rapidly.</p>
+            </div>
+            <div class="force-box">
+                <h3>Supplier Power</h3>
+                <p>Component suppliers (chips, displays) have significant bargaining power.</p>
+            </div>
+            <div class="force-box">
+                <h3>Buyer Power</h3>
+                <p>Consumers have strong influence due to many options and price sensitivity.</p>
+            </div>
+            <div class="force-box">
+                <h3>Threat of Substitutes</h3>
+                <p>Tablets, wearables, and alternative smart devices compete with smartphones.</p>
+            </div>
+            <div class="force-box">
+                <h3>Threat of New Entrants</h3>
+                <p>High barriers due to brand loyalty, R&D costs, and distribution challenges.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 CTRL ALT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
